@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "ZRmrzSjDFzo=",
+  "success": true,
+  "projectFilePath": "C:\\RoadmapLearn\\Chapter1_C#\\WeatherClient\\WeatherClient.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Александр\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\10.0.1\\microsoft.extensions.dependencyinjection.abstractions.10.0.1.nupkg.sha512"
+  ],
+  "logs": []
+}
