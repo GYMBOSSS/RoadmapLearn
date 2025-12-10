@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Net.Http;
 using System.Text;
 using System.Threading.Tasks;
@@ -21,12 +22,12 @@ namespace WeatherClient
             _connectionString = $"http://api.openweathermap.org/data/2.5/forecast?id={_moscowId}&appid={_apiKey}";
         }
 
-        public async Task<string> GetWeatherJson() 
+        public async Task<Stream> GetWeatherStream() 
         {
             try
             {
                 HttpResponseMessage response = await _client.GetAsync(_connectionString);
-                return response.Content.ToString();
+                return await response.Content.ReadAsStreamAsync();
             }
             catch (HttpRequestException ex)
             {
@@ -36,6 +37,7 @@ namespace WeatherClient
             {
                 Console.WriteLine(ex.Message);
             }
+            return null;
         }
     }
 }
