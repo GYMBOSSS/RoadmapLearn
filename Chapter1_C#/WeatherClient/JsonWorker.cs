@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.IO;
 using System.Text;
 using System.Text.Json;
+using Newtonsoft.Json;
 using System.Threading.Tasks;
 
 namespace WeatherClient
@@ -20,19 +21,16 @@ namespace WeatherClient
             api = new ClientOfAPI();
         }
 
-        public async Task<T> GetWeatherFromStream<T>(Stream stream) 
+        public WeatherResponse GetWeatherFromJsonString(string str) 
         {
-            T response;
-            response = await JsonSerializer.DeserializeAsync<T>(stream, options);
-           
-            await SerializeToFile<T>(response);
-
+            WeatherResponse response = JsonConvert.DeserializeObject<WeatherResponse>(str);
+        
             return response;
         }
-        public async Task SerializeToFile<T>(T response) 
+
+        public async Task SerializeToFile(WeatherResponse response) 
         {
-            Stream stream = new FileStream(jsonFile, FileMode.OpenOrCreate);
-            JsonSerializer.Serialize(stream, response, options);
+            File.WriteAllText(jsonFile, JsonConvert.SerializeObject(response));
         }
     }
 }

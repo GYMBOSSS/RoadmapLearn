@@ -19,25 +19,22 @@ namespace WeatherClient
         public ClientOfAPI() 
         {
             _client = new HttpClient();
-            _connectionString = $"http://api.openweathermap.org/data/2.5/forecast?id={_moscowId}&appid={_apiKey}";
+            _connectionString = $"http://api.openweathermap.org/data/2.5/weather?id={_moscowId}&appid={_apiKey}";
         }
 
-        public async Task<Stream> GetWeatherStream() 
-        {
-            try
+        public async Task<string?> GetWeatherJsonString() 
+        {    
+            using HttpResponseMessage response = await _client.GetAsync(_connectionString);
+            if (response.IsSuccessStatusCode)
             {
-                HttpResponseMessage response = await _client.GetAsync(_connectionString);
-                return await response.Content.ReadAsStreamAsync();
+                string jsonString = await response.Content.ReadAsStringAsync();
+                return jsonString;
             }
-            catch (HttpRequestException ex)
+            else 
             {
-                Console.WriteLine(ex.Message);
+                Console.WriteLine("Server's response have unsuccess status code");
+                return null;
             }
-            catch (Exception ex) 
-            {
-                Console.WriteLine(ex.Message);
-            }
-            return null;
         }
     }
 }

@@ -1,42 +1,44 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Text;
-using System.Text.Json.Serialization;
+using Newtonsoft.Json;
+using Newtonsoft.Json.Serialization;
 
 namespace WeatherClient
 {
-    class WeatherResponse
+    public class WeatherResponse
     {
-        public Coord Coord { get; set; }
-        public List<Weather> Weather { get; set; }
+        public Coord coord { get; set; }
+        public List<Weather> weather { get; set; }
+        [JsonProperty("base")]
         public string Base { get; set; }
-        public Main Main { get; set; }
-        public int Visibility { get; set; }
-        public Wind Wind { get; set; }
-        public Rain Rain { get; set; }
-        public Clouds Clouds { get; set; }
-        public int Dt { get; set; }
-        public Sys Sys { get; set; }
-        public int Timezone { get; set; }
-        public int Id { get; set; }
-        public string Name { get; set; }
-        public int Cod {  get; set; }
+        public Main main { get; set; }
+        public int visibility { get; set; }
+        public Wind wind { get; set; }
+        public Rain rain { get; set; }
+        public Clouds clouds { get; set; }
+        public int dt { get; set; }
+        public Sys sys { get; set; }
+        public int timezone { get; set; }
+        public int id { get; set; }
+        public string name { get; set; }
+        public int cod {  get; set; }
 
         public WeatherResponse() { }
     }
-    struct Coord 
+    public struct Coord 
     {
         public float lon { get; set; }
         public float lat { get; set; }
     }
-    struct Weather 
+    public struct Weather 
     {
         public int id { get; set; }
         public string main { get; set; }
         public string description { get; set; }
         public string icon { get; set; }
     }
-    struct Main 
+    public struct Main 
     {
         public float temp { get; set; }
         public float feels_like { get; set; }
@@ -47,22 +49,22 @@ namespace WeatherClient
         public int sea_level { get; set; }
         public int grnd_level { get; set; }
     }
-    struct Wind 
+    public struct Wind 
     {
         public float speed { get; set; }
         public int deg { get; set; }
         public float gust { get; set; }
     }
-    struct Rain 
+    public struct Rain 
     {
-        [JsonPropertyName("1h")]
+        [JsonProperty("1h")]
         public float hour { get; set; }
     }
-    struct Clouds
+    public struct Clouds
     {
         public int all { get; set; }
     }
-    struct Sys 
+    public struct Sys 
     {
         public int type { get; set; }
         public int id { get; set; }

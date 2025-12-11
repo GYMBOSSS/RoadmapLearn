@@ -3,32 +3,32 @@
   "WorkspaceRootPath": "C:\\RoadmapLearn\\Chapter1_C#\\WeatherClient\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{06C47B0F-7DD7-9A1D-93BC-65100D915E07}|WeatherClient.csproj|c:\\roadmaplearn\\chapter1_c#\\weatherclient\\jsonworker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{06C47B0F-7DD7-9A1D-93BC-65100D915E07}|WeatherClient.csproj|solutionrelative:jsonworker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{06C47B0F-7DD7-9A1D-93BC-65100D915E07}|WeatherClient.csproj|c:\\roadmaplearn\\chapter1_c#\\weatherclient\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{06C47B0F-7DD7-9A1D-93BC-65100D915E07}|WeatherClient.csproj|solutionrelative:mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{06C47B0F-7DD7-9A1D-93BC-65100D915E07}|WeatherClient.csproj|c:\\roadmaplearn\\chapter1_c#\\weatherclient\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{06C47B0F-7DD7-9A1D-93BC-65100D915E07}|WeatherClient.csproj|solutionrelative:mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{06C47B0F-7DD7-9A1D-93BC-65100D915E07}|WeatherClient.csproj|c:\\roadmaplearn\\chapter1_c#\\weatherclient\\weather.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{06C47B0F-7DD7-9A1D-93BC-65100D915E07}|WeatherClient.csproj|solutionrelative:weather.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{06C47B0F-7DD7-9A1D-93BC-65100D915E07}|WeatherClient.csproj|c:\\roadmaplearn\\chapter1_c#\\weatherclient\\weathercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{06C47B0F-7DD7-9A1D-93BC-65100D915E07}|WeatherClient.csproj|solutionrelative:weathercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{06C47B0F-7DD7-9A1D-93BC-65100D915E07}|WeatherClient.csproj|c:\\roadmaplearn\\chapter1_c#\\weatherclient\\weatherresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{06C47B0F-7DD7-9A1D-93BC-65100D915E07}|WeatherClient.csproj|solutionrelative:weatherresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{06C47B0F-7DD7-9A1D-93BC-65100D915E07}|WeatherClient.csproj|c:\\roadmaplearn\\chapter1_c#\\weatherclient\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{06C47B0F-7DD7-9A1D-93BC-65100D915E07}|WeatherClient.csproj|solutionrelative:mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{06C47B0F-7DD7-9A1D-93BC-65100D915E07}|WeatherClient.csproj|c:\\roadmaplearn\\chapter1_c#\\weatherclient\\clientofapi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{06C47B0F-7DD7-9A1D-93BC-65100D915E07}|WeatherClient.csproj|solutionrelative:clientofapi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{06C47B0F-7DD7-9A1D-93BC-65100D915E07}|WeatherClient.csproj|c:\\roadmaplearn\\chapter1_c#\\weatherclient\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{06C47B0F-7DD7-9A1D-93BC-65100D915E07}|WeatherClient.csproj|solutionrelative:mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{06C47B0F-7DD7-9A1D-93BC-65100D915E07}|WeatherClient.csproj|c:\\roadmaplearn\\chapter1_c#\\weatherclient\\weathercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{06C47B0F-7DD7-9A1D-93BC-65100D915E07}|WeatherClient.csproj|solutionrelative:weathercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{06C47B0F-7DD7-9A1D-93BC-65100D915E07}|WeatherClient.csproj|c:\\roadmaplearn\\chapter1_c#\\weatherclient\\jsonworker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{06C47B0F-7DD7-9A1D-93BC-65100D915E07}|WeatherClient.csproj|solutionrelative:jsonworker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{06C47B0F-7DD7-9A1D-93BC-65100D915E07}|WeatherClient.csproj|c:\\roadmaplearn\\chapter1_c#\\weatherclient\\weatherresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{06C47B0F-7DD7-9A1D-93BC-65100D915E07}|WeatherClient.csproj|solutionrelative:weatherresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -38,7 +38,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Bookmark",
@@ -46,92 +46,93 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Weather.json",
-              "DocumentMoniker": "C:\\RoadmapLearn\\Chapter1_C#\\WeatherClient\\Weather.json",
-              "RelativeDocumentMoniker": "Weather.json",
-              "ToolTip": "C:\\RoadmapLearn\\Chapter1_C#\\WeatherClient\\Weather.json",
-              "RelativeToolTip": "Weather.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-12-10T05:06:43.736Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "WeatherController.cs",
               "DocumentMoniker": "C:\\RoadmapLearn\\Chapter1_C#\\WeatherClient\\WeatherController.cs",
               "RelativeDocumentMoniker": "WeatherController.cs",
               "ToolTip": "C:\\RoadmapLearn\\Chapter1_C#\\WeatherClient\\WeatherController.cs",
               "RelativeToolTip": "WeatherController.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAwBkAAAAcAAAAAAAAAA==",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAlwBgAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-12-10T04:27:48.752Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 6,
               "Title": "WeatherResponse.cs",
               "DocumentMoniker": "C:\\RoadmapLearn\\Chapter1_C#\\WeatherClient\\WeatherResponse.cs",
               "RelativeDocumentMoniker": "WeatherResponse.cs",
               "ToolTip": "C:\\RoadmapLearn\\Chapter1_C#\\WeatherClient\\WeatherResponse.cs",
               "RelativeToolTip": "WeatherResponse.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAABEAAAAAAAAAAAAowBoAAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-12-09T18:36:40.08Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 5,
               "Title": "JsonWorker.cs",
               "DocumentMoniker": "C:\\RoadmapLearn\\Chapter1_C#\\WeatherClient\\JsonWorker.cs",
               "RelativeDocumentMoniker": "JsonWorker.cs",
               "ToolTip": "C:\\RoadmapLearn\\Chapter1_C#\\WeatherClient\\JsonWorker.cs",
               "RelativeToolTip": "JsonWorker.cs",
-              "ViewState": "AgIAABEAAAAAAAAAAAAYwBsAAAAvAAAAAAAAAA==",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABsAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-12-09T18:20:36.865Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 3,
               "Title": "ClientOfAPI.cs",
               "DocumentMoniker": "C:\\RoadmapLearn\\Chapter1_C#\\WeatherClient\\ClientOfAPI.cs",
               "RelativeDocumentMoniker": "ClientOfAPI.cs",
               "ToolTip": "C:\\RoadmapLearn\\Chapter1_C#\\WeatherClient\\ClientOfAPI.cs",
               "RelativeToolTip": "ClientOfAPI.cs",
-              "ViewState": "AgIAABwAAAAAAAAAAAAAACEAAAAuAAAAAAAAAA==",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAowBoAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-12-09T18:20:08.928Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 0,
               "Title": "MainWindow.xaml",
               "DocumentMoniker": "C:\\RoadmapLearn\\Chapter1_C#\\WeatherClient\\MainWindow.xaml",
               "RelativeDocumentMoniker": "MainWindow.xaml",
-              "ToolTip": "C:\\RoadmapLearn\\Chapter1_C#\\WeatherClient\\MainWindow.xaml",
-              "RelativeToolTip": "MainWindow.xaml",
+              "ToolTip": "C:\\RoadmapLearn\\Chapter1_C#\\WeatherClient\\MainWindow.xaml*",
+              "RelativeToolTip": "MainWindow.xaml*",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2025-12-09T18:18:00.544Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 1,
               "Title": "MainWindow.xaml.cs",
               "DocumentMoniker": "C:\\RoadmapLearn\\Chapter1_C#\\WeatherClient\\MainWindow.xaml.cs",
               "RelativeDocumentMoniker": "MainWindow.xaml.cs",
-              "ToolTip": "C:\\RoadmapLearn\\Chapter1_C#\\WeatherClient\\MainWindow.xaml.cs",
-              "RelativeToolTip": "MainWindow.xaml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ToolTip": "C:\\RoadmapLearn\\Chapter1_C#\\WeatherClient\\MainWindow.xaml.cs*",
+              "RelativeToolTip": "MainWindow.xaml.cs*",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAuwBwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-09T18:17:59.764Z"
+              "WhenOpened": "2025-12-09T18:17:59.764Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Weather.json",
+              "DocumentMoniker": "C:\\RoadmapLearn\\Chapter1_C#\\WeatherClient\\Weather.json",
+              "RelativeDocumentMoniker": "Weather.json",
+              "ToolTip": "C:\\RoadmapLearn\\Chapter1_C#\\WeatherClient\\Weather.json",
+              "RelativeToolTip": "Weather.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAB/AQAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-12-10T05:06:43.736Z",
+              "EditorCaption": ""
             }
           ]
         }

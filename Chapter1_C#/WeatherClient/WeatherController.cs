@@ -7,7 +7,7 @@ using System.Text.Json;
 
 namespace WeatherClient
 {
-    internal class WeatherController
+    public class WeatherController
     {
         private readonly ClientOfAPI _client;
         private readonly JsonWorker _jsonWorker;
@@ -16,12 +16,16 @@ namespace WeatherClient
         {
             _client = new ClientOfAPI();
             _jsonWorker = new JsonWorker();
+
+            Console.WriteLine();
         }
 
         public async Task<WeatherResponse> GetWeather() 
         {
-            Stream stream = await _client.GetWeatherStream();
-            WeatherResponse response = await _jsonWorker.GetWeatherFromStream<WeatherResponse>(stream);
+            string? jsonWeatherString = await _client.GetWeatherJsonString();
+
+            WeatherResponse response = _jsonWorker.GetWeatherFromJsonString(jsonWeatherString);
+            await _jsonWorker.SerializeToFile(response);
 
             return response;
         }

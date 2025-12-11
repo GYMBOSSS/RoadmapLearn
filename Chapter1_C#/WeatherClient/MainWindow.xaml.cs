@@ -16,9 +16,21 @@ namespace WeatherClient
     /// </summary>
     public partial class MainWindow : Window
     {
+        public WeatherController weatherController;
         public MainWindow()
         {
             InitializeComponent();
+            weatherController = new WeatherController();
+
+            WeatherResponse weather = GetWeather(weatherController).Result;
+
+            Console.ReadLine();
+        }
+        
+        public async Task<WeatherResponse> GetWeather(WeatherController controller) 
+        {
+            WeatherResponse weatherInMoscow = await weatherController.GetWeather();
+            return weatherInMoscow;
         }
     }
 }
