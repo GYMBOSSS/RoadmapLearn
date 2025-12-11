@@ -1,0 +1,23 @@
+{
+  "version": 2,
+  "dgSpecHash": "Z2nvJ+DBdfY=",
+  "success": true,
+  "projectFilePath": "C:\\RoadmapLearn\\Chapter2_ASPNET&RazorPages\\TrainBiletsSite\\TrainBiletsSite.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Александр\\.nuget\\packages\\microsoft.aspnet.razor\\3.3.0\\microsoft.aspnet.razor.3.3.0.nupkg.sha512"
+  ],
+  "logs": [
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "message": "Пакет \"Microsoft.AspNet.Razor 3.3.0\" был восстановлен с помощью \".NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1\", а не целевой платформы проекта \"net10.0\". Этот пакет может быть не полностью совместим с вашим проектом.",
+      "projectPath": "C:\\RoadmapLearn\\Chapter2_ASPNET&RazorPages\\TrainBiletsSite\\TrainBiletsSite.csproj",
+      "warningLevel": 1,
+      "filePath": "C:\\RoadmapLearn\\Chapter2_ASPNET&RazorPages\\TrainBiletsSite\\TrainBiletsSite.csproj",
+      "libraryId": "Microsoft.AspNet.Razor",
+      "targetGraphs": [
+        "net10.0"
+      ]
+    }
+  ]
+}
